@@ -12,19 +12,19 @@ function Project() {
                 <li>MUI استفاده از آیکون‌های</li>
                 <li>Responsiveبرای طراحیTailwind وکلاس های</li>
                 <li>را برای لیست محصولات و دیگری برای اطلاعات کاربر نوشتمApiدو</li>
-                <a className="text-blue-600 underline underline-offset-4" href="https://clonedigikala123.liara.run/" target="_blank" rel="noopener noreferrer">لینک وبسایت</a>
+                <a className="text-blue-600 underline underline-offset-4" href="https://github.com/mh-morowati/digikala-project" target="_blank" rel="noopener noreferrer">لینک گیتهاب</a>
             </ul>
             <h3 className="font-medium text-lg">Alibaba</h3>
             <ul className="text-zinc-800 px-2 my-3">
                 <li>پروژه علی بابابرای جستجو و انتخاب بلیط </li>
                 <li>Tailwindسازی بااستفاده از کلاسهای Responsive</li>
                 <li> که برای شبیه سازی ورود loginصفحه </li>
-                <a className="text-blue-600 underline underline-offset-4" href="https://arzdigital123.liara.run/" target="_blank" rel="noopener noreferrer">لینک سایت روی هاست لیارا</a>
+                <a className="text-blue-600 underline underline-offset-4" href="https://arzdigital123.liara.run/" target="_blank" rel="noopener noreferrer">لینک سایت روی هاست </a>
             </ul>
             <h3 className="font-medium text-lg">Arzdigital</h3>
             <p className="text-zinc-800 px-2 my-3">استفاده کردمAPI برای تماس با Axios برای
                 نمایش قیمت‌ ارزهای دیجیتال که از (SSR) با رندر سمت سرورNext.jsیک برنامه</p>
-                <a className="text-blue-600 underline underline-offset-4" href="https://alibaba.liara.run/" target="_blank" rel="noopener noreferrer">لینک سایت در لیارا</a>
+                <a className="text-blue-600 underline underline-offset-4" href="https://github.com/mh-morowati/alibaba" target="_blank" rel="noopener noreferrer">لینک گیتهاب</a>
         </div>
     </div>);
 }
