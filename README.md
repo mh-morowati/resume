@@ -1,3 +1,3 @@
 # vercel deployment
 
-resume-beta-blue.vercel.app
+https://resume-brown-nu.vercel.app/
