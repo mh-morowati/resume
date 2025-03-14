@@ -1,167 +1,107 @@
+import { SiGmail } from "react-icons/si";
+import { ImGithub } from "react-icons/im";
+import { FaLinkedin } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa6";
 
 
 
 function Home() {
   return (
-    <div>
-      <div className="flex p-5">
-        <a className="mr-3" target="_blank" href="https://github.com/mh-morowati" rel="noreferrer"> Github </a>
-        <a className="mr-3" href="https://www.linkedin.com/in/muhammad-morowati-b12507307/" target="_blank" rel="noopener noreferrer">
-          Linkedin </a>
-          <a className="mr-3" href="mailto:muhammadmorowati@gmail.com"> Gmail </a>
-          <a className="mr-3 text-sm font-medium p-1 bg-slate-200 rounded" href="tel:+989187139586">+989187139586</a>
-      </div>
-      <div className="flex float-right border pl-4">
-        <div className="w-[815px]">
-    <div>
-      <div className=" ">
-      <h1 className="text-lg tracking-[2px]
-"><span className="font-light">MOHAMMAD</span> &nbsp;<span className="font-bold">MOROWATI</span></h1>
-        <h3 className=" text-zinc-400 font-semibold tracking-[2px]">FRONT-END DEVELOPER</h3>
-        <div className="space-x-5 flex">
-         <p className="tracking-wide">
-        918-713-9586
-      </p>
-      <p className="">
-        Tehran
-      </p>
-      
-       <p className="">
-        <a href="https://www.linkedin.com/in/muhammad-morowati-b12507307/">
-          Linkedin
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-400 via-pink-300 to-yellow-300 p-6">
+      <div className="max-w-4xl w-full bg-white/20 backdrop-blur-lg shadow-lg rounded-lg p-8 flex flex-col md:flex-row text-zinc-900">
+        {/* Left Section */}
+        
+        <div className="md:w-1/3 text-center md:text-left">
+          <h1 className="text-2xl font-bold mt-4">Hi ! Im Mohammad Morowati</h1>
+          <h2 className="text-lg font-semibold text-zinc-600 my-5">Front-End Developer in Tehran</h2>
+          <p>0918-713-9586</p>
+          <div className="flex justify-center md:justify-start mt-4 space-x-4">
+            <a href="mailto:muhammadmorowati@gmail.com" className="text-zinc-800">
+              <SiGmail size={25} /></a>
+            <a href="https://github.com/mh-morowati" className="text-zinc-800">
+              <ImGithub size={25} /></a>
+            <a href="https://www.linkedin.com/in/muhammad-morowati-b12507307/" className="text-zinc-800">
+              <FaLinkedin size={25} /></a>
+            <a href="https://t.me/mhmorowati">
+        <FaTelegram size={25}/>
         </a>
-      </p>
-       <p className="">
-        <a href="https://github.com/mh-morowati">
-        Github
-        </a>
-      </p>
-       <p className="">
-        <a href="https://t.me/mhmorowati">
-        Telegram
-        </a>
-      </p> 
-       <p className="">
-       
-end of service
-          </p>
-           <p className="">
-        2000
-          </p>
-         
-      </div>
-      </div>
-       <hr className="my-1.5"/>
-      <div>
-        <h1 className="text-xl tracking-[3px] text-zinc-900 ml-1">ABOUT ME</h1>
-        <p className="text-sm text-zinc-800 ">
-          Passionate Frontend Developer with 2 years of experience crafting user-centric experiences and high-performance web solutions
-     using JavaScript. I leverage clean code practices and a strong understanding of the business domain to deliver impactful projects.
-        </p>
-        <hr className="my-1.5" />
-      </div>
-
-
-       <div>
-        <h1 className="text-xl tracking-[3px] text-zinc-900 ml-1 mb-2">Experience</h1>
-        <h3 className="font-bold">p30web</h3>
-        <p><span className="text-zinc-700 text-sm">Aban1403 - current</span></p>
-        <p className="text-sm text-zinc-800 ">
-          Developed and contributed to the website <a
-            className="text-blue-600 underline underline-offset-4" href="https://expertiew.com/">Expertiew </a>
-          
-        </p>
-        <ol className="list-disc pl-6">
-          <li>using Next.js, React, Typescript, google auth, Next ui, react query, react hook form</li>
-          <li>Implemented Google authentication for user login.</li>
-          <li>Designed and developed a sign-in form for interviewers.</li>
-          <li>Created the booking page and other sections of the website.</li>
-          <li>Worked closely with the backend team to integrate features and ensure seamless functionality.</li>
-        </ol>
-        <hr className="my-1.5"/>
-      </div>
-    </div>
-     <div className="">
-        <h1 className="text-2xl tracking-[3px] text-zinc-900 mb-1 ml-1">SKILLS</h1>
-      <div className="flex space-x-20 pl-6">
-          <ol className="list-disc">
-          <li>Next</li>
-          <li>React</li>
-          <li>Typescript</li>
-        </ol>
-        <ol className="list-disc">
-            <li>Javascript</li>
-          <li>Zustand</li>
-          <li>RESTful Api</li>
-        </ol>
-        <ol className="list-disc">
-
-          <li>Axios</li>
-          <li>Sass/Less</li>
-          <li>Tailwind</li>
-         </ol>
-        <ol className="list-disc">
-          <li>Next ui</li>
-         <li>Git</li>
-          <li>Figma</li>
-          
-        </ol>
-        <ol className="list-disc">
-          <li>Trello</li>
-        </ol>
-      </div>
-       
-    </div>
-
-    <div>
-       <hr className="my-1.5"/>
-        <h1 className="text-2xl tracking-[3px] text-zinc-900 ml-1 mb-1">PROJECTS</h1>
-        <h3 className="font-bold">Squid game</h3>
-        <p className="text-sm text-zinc-800 ">
-         Developed an interactive "red light, green light" game using:</p>
-      <ol className="list-disc pl-6">
-        <li>Next, react, typescript, next ui, framer motion, tailwind</li>
-          <li>Implemented smooth animations with Framer Motion.</li>
-          <li>Designed and optimized custom hooks for better game logic.</li>
-        <li>Ensured full responsiveness across all screen sizes and frames.</li>
-        <p className="flex space-x-6">
-          <a className="text-blue-600 flex" href="https://squid-game-chi.vercel.app/">
-             Vercel
+          </div>
+            {/* Download Resume Button */}
+          <a
+            target="_blank"
+            href="/4ba8bd2a-9f68-4871-9f64-fb74218d4c2f.pdf"
+            download="MohammadMorowati_Resume.pdf"
+            className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition"
+          >
+            Download Resume
           </a>
-          <a className="text-blue-600 flex" href="https://github.com/mh-morowati/squid_game">
-            github 
-          </a>
-        </p>
-      </ol>
-      
-       <h3 className="font-bold mt-1.5">Cryptocurrency Price Tracker – ArzDigital</h3>
-        <p className="text-sm text-zinc-800 ">
-         Developed a cryptocurrency price tracking website using:</p>
-      <ol className="list-disc pl-6">
-        <li>Next, react, typescript, axios, react query</li>
-          <li>Designed and implemented real-time price updates.</li>
-          <li>Optimized performance for smooth user experience.</li>
-          <li>Added a reliable search functionality for cryptocurrencies.</li>
-        <li className="flex space-x-6" ><a className="text-blue-600 flex" href="https://arzdigital.vercel.app/">
-         Vercel </a>
-        <a className="text-blue-600 flex" href="https://github.com/mh-morowati/arzdigital">
-           github </a></li>
-        </ol>
-       
-        <h3 className="font-bold mt-1.5">E-Commerce Project – Digikala Clone</h3>
-        <p className="text-sm text-zinc-800 ">
-         Developed a Digikala-like online store using Next.js,Typescript ,NextUI, and React Query.</p>
-        <ol className="list-disc pl-6">
-          <li>Implemented a authentication system using Next Auth and React Query Provider.</li>
-          <li>Integrated an API for fetching and displaying product data.</li>
-        <li>Used a JSON-based approach for city selection.</li>
-        <li>Enabled product selection and shopping cart functionality with local storage.</li>
-        <li>Optimized UI and responsiveness for a seamless shopping experience.</li>
-        <li ><a className="text-blue-600 flex" href="https://github.com/mh-morowati/digikala-clone">
-           github </a></li>
-        </ol>
-      </div>
-  </div>
+          
+        </div>
+
+        {/* Right Section */}
+        <div className="md:w-2/3 md:pl-8 mt-6 md:mt-0">
+          {/* About Me */}
+          <h3 className="text-xl font-bold mb-2">About Me</h3>
+          <p className="text-sm text-zinc-800">
+            Passionate Frontend Developer with 2 years of experience crafting user-centric experiences and
+            high-performance web solutions using JavaScript.
+          </p>
+          <hr className="my-4" />
+
+          {/* Experience */}
+          <h3 className="text-xl font-bold mb-2">Experience</h3>
+          <p className="text-sm font-semibold">p30web</p>
+          <p className="text-sm text-zinc-700">Aban 1403 - Current</p>
+          <p className="text-sm">Developed and contributed to <a href="https://expertiew.com/" className="text-blue-600">Expertiew</a></p>
+          <ul className="list-disc list-inside text-sm text-zinc-800">
+            <li>Used Next.js, React, TypeScript, Google Auth, and React Query</li>
+            <li>Designed sign-in forms and booking pages</li>
+            <li>Worked with the backend team for feature integration</li>
+          </ul>
+          <hr className="my-4" />
+
+          {/* Skills */}
+          <h3 className="text-xl font-bold mb-2">Skills</h3>
+          <div className="grid grid-cols-2 gap-2 text-sm text-zinc-800">
+            <ul className="list-disc list-inside">
+              <li>Next.js</li>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>RESTful API</li>
+            </ul>
+            <ul className="list-disc list-inside">
+              <li>Axios</li>
+              <li>Tailwind CSS</li>
+              <li>Git</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <hr className="my-4" />
+
+          {/* Projects */}
+          <h3 className="text-xl font-bold mb-2">Projects</h3>
+          <div className="text-sm text-zinc-800">
+            <p className="font-semibold">Squid Game</p>
+            <p>Developed a "Red Light, Green Light" game using Next.js, Framer Motion, and Tailwind CSS.</p>
+            <p className="flex space-x-4">
+              <a className="text-blue-600" href="https://squid-game-chi.vercel.app/">Live</a>
+              <a className="text-blue-600" href="https://github.com/mh-morowati/squid_game">GitHub</a>
+            </p>
+
+            <p className="font-semibold mt-2">Cryptocurrency Price Tracker</p>
+            <p>Built a real-time crypto tracker using Next.js, React Query, and Axios.</p>
+            <p className="flex space-x-4">
+              <a className="text-blue-600" href="https://arzdigital.vercel.app/">Live</a>
+              <a className="text-blue-600" href="https://github.com/mh-morowati/arzdigital">GitHub</a>
+            </p>
+
+            <p className="font-semibold mt-2">E-Commerce Project – Digikala Clone</p>
+            <p>Developed a Digikala-like store with Next.js and NextAuth authentication.</p>
+            <p className="flex space-x-4">
+              <a className="text-blue-600" href="https://github.com/mh-morowati/digikala-clone">GitHub</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
